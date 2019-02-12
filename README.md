@@ -1,4 +1,4 @@
-# beef-share-platform
+# vue3-platform
 
 ## Project setup
 
