@@ -1,0 +1,63 @@
+{
+    "serverUrl": "http://localhost:3000",
+    "toolbarContent": "Menu",
+    "setTokenTag": "Authorization",
+    "reqTokenTag": "Authorization",
+    "tokenPrefix": "Bearer ",
+    "freshTimeTag": "freshtime",
+    "unAuthenticationRedirect": "login",
+    "defaultUri": "home",
+    "navItemList": [{
+            "name": "首页",
+            "icon": "home",
+            "to": "home"
+        },
+        {
+            "name": "我的推广员",
+            "icon": "person",
+            "to": "promoter"
+        },
+        {
+            "name": "直接推荐商家",
+            "icon": "store",
+            "to": "dirStore"
+        },
+        {
+            "name": "间接推荐商家",
+            "icon": "store",
+            "to": "indirStore"
+        },
+        {
+            "name": "佣金提成表",
+            "icon": "table_chart",
+            "to": "commission"
+        },
+        {
+            "name": "账户信息",
+            "icon": "info",
+            "to": "info"
+        },
+        {
+            "name": "提现中心",
+            "icon": "attach_money",
+            "to": "cashCenter"
+        },
+        {
+            "name": "提现明细",
+            "icon": "list",
+            "to": "cashDetail"
+        }
+    ],
+    "titelContent": "推广管理系统",
+    "toolBarActions": [{
+            "name": "修改密码",
+            "icon": "autorenew",
+            "action": "update_password"
+        },
+        {
+            "name": "登出",
+            "icon": "power_settings_new",
+            "action": "log_off"
+        }
+    ]
+}
